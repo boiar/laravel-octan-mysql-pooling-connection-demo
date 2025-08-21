@@ -1,4 +1,4 @@
-# Laravel Mysql Pooling Connection With Octan and Swool Demo
+# Laravel Mysql Pooling Connection With Octane and Swoole Demo
 
 ![Pooling Connection Demo](./info.png)
 
