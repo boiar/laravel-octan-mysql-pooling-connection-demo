@@ -1,6 +1,6 @@
 # Laravel Mysql Pooling Connection Demo
 
-[![Pooling Connection Demo](./info.png)
+![Pooling Connection Demo](./info.png)
 
 A demonstration project that showcases how to implement and benchmark a high-performance MySQL connection pool in 
 a **Laravel** application using **Swoole** and **Laravel Octane**.
