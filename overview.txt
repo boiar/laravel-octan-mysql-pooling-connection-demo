@@ -2,5 +2,4 @@ octane-pooling-demo/
 │
 ├── docker-compose.yml
 ├── Dockerfile
-├── nginx.conf
-└── (Laravel app files will be inside /src)
+└── src  // Laravel app files
