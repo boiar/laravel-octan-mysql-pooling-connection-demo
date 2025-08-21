@@ -64,6 +64,18 @@ To see the performance difference, use a load testing tool like **wrk** on your 
 
 ***
 
+## Performance Comparison
+
+### Without Connection Pool
+![Without Pool](docs/without-pool.png)
+
+### With Connection Pool
+![With Pool](docs/with-pool.png)
+
+
+
+***
+
 ## 📂 File Structure
 ```
 │
@@ -71,3 +83,5 @@ To see the performance difference, use a load testing tool like **wrk** on your 
 ├── Dockerfile
 └── src  // Laravel app files
 ```
+
+
