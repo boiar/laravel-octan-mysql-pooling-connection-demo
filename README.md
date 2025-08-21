@@ -1,9 +1,10 @@
-# Laravel Mysql Pooling Connection Demo
+# Laravel Mysql Pooling Connection With Octan and Swool Demo
 
 ![Pooling Connection Demo](./info.png)
 
-A demonstration project that showcases how to implement and benchmark a high-performance MySQL connection pool in 
-a **Laravel** application using **Swoole** and **Laravel Octane**.
+This is a demo project showcasing **Laravel Octane with Swoole** for efficient MySQL connection pooling.  
+It leverages [Laravel Octane](https://laravel.com/docs/octane) and [Swoole](https://www.swoole.co.uk/) 
+to provide faster response times and persistent database connections.
 
 ## 📖 Table of Contents
 
@@ -33,7 +34,7 @@ This project demonstrates how a **connection pool**  solves this problem by main
 
 ***
 
-## 💻 Getting Started
+## Getting Started
 
 Clone the repository and set up your environment with a single command. Make sure you have Docker and Docker Compose installed.
 
