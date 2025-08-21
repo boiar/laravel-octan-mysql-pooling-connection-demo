@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./src
+      dockerfile: ../Dockerfile
+    container_name: octane_app
+    restart: unless-stopped
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+    networks:
+      - octane_net
+
+  mysql:
+    image: mysql:8.0
+    container_name: octane_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: pooling_demo
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: rootpass
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+    networks:
+      - octane_net
+
+networks:
+  octane_net:
+
+volumes:
+  mysql_data:
