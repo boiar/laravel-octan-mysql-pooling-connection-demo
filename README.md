@@ -67,10 +67,10 @@ To see the performance difference, use a load testing tool like **wrk** on your 
 ## Performance Comparison
 
 ### Without Connection Pool
-![Without Pool](docs/without-pool.png)
+![Without Pool](without-pool.png)
 
 ### With Connection Pool
-![With Pool](docs/with-pool.png)
+![With Pool](with-pool.png)
 
 
 
